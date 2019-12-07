@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/chairsone" app:civ_border_width="1dp"
+            app:civ_border_color="#FF000000"/>
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sevicioone"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25px"
+                    android:layout_marginRight="25px">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icofindeone"
+                    >
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/serviciotwo"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25px"
+                    android:layout_marginRight="25px">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icofindeone"
+                    >
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="292dp"
+                    android:layout_height="38dp"
+                    android:text="@string/serviciotree"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25px"
+                    android:layout_marginRight="25px">
+
+                </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icofindeone"
+                android:layout_marginLeft="25px"
+                android:layout_marginRight="25px"
+                >
+
+            </ImageView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:text="@string/precioone"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="25px"
+            android:layout_marginRight="25px">
+
+        </TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Reservar"
+            android:background="@drawable/btton_roudend"
+            android:layout_marginLeft="25px"
+            android:layout_marginRight="25px"
+            >
+
+        </Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="25px"
+            android:layout_marginRight="25px">
+
+        </TextView>
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
